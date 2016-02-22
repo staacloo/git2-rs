@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Buf","A structure to wrap an intermediate buffer used by libgit2.A buffer can be thought of a `Vec<u8>`, but the `Vec` type is not used to avoid copying data back and forth."]]});

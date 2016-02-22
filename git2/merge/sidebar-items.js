@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AnnotatedCommit","A structure to represent an annotated commit, the input to merge and rebase.An annotated commit contains information about how it was looked up, which may be useful for functions like merge or rebase to provide context to the operation."],["MergeOptions","Options to specify when merging."]]});

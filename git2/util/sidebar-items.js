@@ -1,0 +1,1 @@
+initSidebarItems({"trait":[["IntoCString","A class of types that can be converted to C strings.These types are represented internally as byte slices and it is quite rare for them to contain an interior 0 byte."]]});

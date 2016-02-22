@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Refspec","A structure to represent a git refspec.Refspecs are currently mainly accessed/created through a `Remote`."]]});

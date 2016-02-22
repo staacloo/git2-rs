@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["OidArray","An oid array structure used by libgit2Some apis return arrays of oids which originate from libgit2. This wrapper type behaves a little like `Vec<&Oid>` but does so without copying the underlying Oids until necessary."]]});

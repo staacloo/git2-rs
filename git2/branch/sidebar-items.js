@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Branch","A structure to represent a git branchA branch is currently just a wrapper to an underlying `Reference`. The reference can be accessed through the `get` and `unwrap` methods."],["Branches","An iterator over the branches inside of a repository."]]});
