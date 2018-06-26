@@ -1289,7 +1289,7 @@ pub struct git_filter {
 #[cfg(all(unix, not(target_os = "macos"), not(target_os = "ios"), feature = "https"))]
 pub fn openssl_init() {
     if !cfg!(target_os = "linux") && !cfg!(target_os = "freebsd") { return }
-
+    openssl::init();
     // Currently, libgit2 leverages OpenSSL for SSL support when cloning
     // repositories over HTTPS. This means that we're picking up an OpenSSL
     // dependency on non-Windows platforms (where it has its own HTTPS
@@ -1401,7 +1401,7 @@ pub fn openssl_init() {
     // OS X the OpenSSL binaries are stable enough that we can just rely on
     // dynamic linkage (plus they have some weird modifications to OpenSSL which
     // means we wouldn't want to link statically).
-    openssl::probe::init_ssl_cert_env_vars();
+    // openssl::probe::init_ssl_cert_env_vars();
 }
 
 #[cfg(any(windows, target_os = "macos", target_os = "ios", not(feature = "https")))]
